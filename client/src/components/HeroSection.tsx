@@ -3,41 +3,35 @@ import babyImage from "@assets/baby-bg-8f52a2c2157cb615c5e9b1d8806b6c91_17629597
 export default function HeroSection() {
   return (
     <section className="relative bg-black text-white overflow-hidden">
-      <div 
-        className="absolute inset-0 opacity-30"
-        style={{
-          backgroundImage: `url(${babyImage})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'right center',
-          backgroundRepeat: 'no-repeat'
-        }}
-        data-testid="img-hero-baby"
-      />
-      
-      <div className="absolute right-0 top-0 bottom-0 w-1/2 hidden md:block">
+      <div className="absolute right-0 top-0 bottom-0 w-1/3 hidden md:block">
         <img
           src={babyImage}
           alt="Bebê dormindo tranquilamente"
-          className="w-full h-full object-cover object-center opacity-40"
+          className="w-full h-full object-cover object-center opacity-60"
+          data-testid="img-hero-baby"
         />
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
-        <div className="space-y-8">
+        <div className="space-y-12">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-center">
             <span className="block text-white">Truque do sono</span>
             <span className="block text-white">
-              Corrige a causa principal do sono não reparador{" "}
-            </span>
-            <span className="block text-yellow-accent mt-2">
-              para que você durma a noite toda e acorde se sentindo
-              revigorado, descansado e pronto para começar o dia.
+              Corrige a causa principal do sono não reparador
             </span>
           </h1>
 
-          <div className="space-y-6 max-w-3xl mx-auto">
+          <h2 
+            className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-relaxed text-center max-w-4xl mx-auto"
+            style={{ color: '#FFEE00' }}
+          >
+            para que você durma a noite toda e acorde se sentindo
+            revigorado, descansado e pronto para começar o dia.
+          </h2>
+
+          <div className="space-y-6 max-w-3xl mx-auto pt-8">
             <div className="flex gap-4 items-start">
-              <div className="w-1 bg-yellow-accent flex-shrink-0 self-stretch min-h-[4rem]" />
+              <div className="w-1 flex-shrink-0 self-stretch min-h-[4rem]" style={{ backgroundColor: '#FFEE00' }} />
               <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
                 Para quem tem dificuldade em dormir bem à noite.
                 <br />- Pode ser bastante frustrante.
