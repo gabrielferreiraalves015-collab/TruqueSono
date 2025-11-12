@@ -5,11 +5,11 @@ export default function HeroSection() {
     <section className="relative bg-black text-white overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
         <div className="space-y-8">
-          <div className="absolute right-0 top-1/4 w-3/5 md:w-1/2 -translate-y-1/4 flex items-center justify-end">
+          <div className="absolute right-0 top-1/4 w-4/5 md:w-3/5 -translate-y-1/4 flex items-center justify-end">
             <img
               src={babyImage}
               alt="Bebê dormindo tranquilamente"
-              className="w-full h-auto object-contain opacity-70"
+              className="w-full h-auto object-contain opacity-70 scale-125"
               data-testid="img-hero-baby"
             />
           </div>
