@@ -14,7 +14,7 @@ export default function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
         <div className="space-y-8">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-relaxed text-center text-white max-w-4xl mx-auto">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold leading-relaxed text-center text-white max-w-4xl mx-auto uppercase">
             <span className="inline-block">
               Sleep "Trick"
               <div className="h-1 bg-red-600 mt-1" />
@@ -24,7 +24,7 @@ export default function HeroSection() {
           </h1>
 
           <h2 
-            className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed text-center max-w-4xl mx-auto"
+            className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed text-center max-w-4xl mx-auto uppercase"
             style={{ color: '#FFEE00' }}
           >
             para que você durma a noite toda e acorde se sentindo
