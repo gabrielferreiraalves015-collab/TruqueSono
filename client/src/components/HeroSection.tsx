@@ -13,23 +13,23 @@ export default function HeroSection() {
       </div>
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
-        <div className="space-y-12">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-center">
-            <span className="block text-white">Truque do sono</span>
-            <span className="block text-white">
-              Corrige a causa principal do sono não reparador
-            </span>
-          </h1>
+        <div className="space-y-8">
+          <div className="text-center">
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white inline-block">
+              Sleep "Trick" Fixes the Root Cause of Nonrestorative Sleep
+              <div className="h-1 bg-red-600 mt-2 mx-auto" style={{ width: '60%' }} />
+            </h1>
+          </div>
 
           <h2 
-            className="text-2xl md:text-3xl lg:text-4xl font-semibold leading-relaxed text-center max-w-4xl mx-auto"
+            className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed text-center max-w-4xl mx-auto"
             style={{ color: '#FFEE00' }}
           >
             para que você durma a noite toda e acorde se sentindo
             revigorado, descansado e pronto para começar o dia.
           </h2>
 
-          <div className="space-y-6 max-w-3xl mx-auto pt-8">
+          <div className="space-y-6 max-w-3xl mx-auto pt-4">
             <div className="flex gap-4 items-start">
               <div className="w-1 flex-shrink-0 self-stretch min-h-[4rem]" style={{ backgroundColor: '#FFEE00' }} />
               <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
