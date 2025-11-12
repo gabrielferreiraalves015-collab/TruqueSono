@@ -8,7 +8,7 @@ export default function HeroSection() {
           <div className="absolute right-0 top-1/4 w-4/5 md:w-3/5 -translate-y-1/4 flex items-center justify-end">
             <img
               src={babyImage}
-              alt="Bebê dormindo tranquilamente"
+              alt="Baby sleeping peacefully"
               className="w-full h-auto object-contain opacity-70 scale-125"
               data-testid="img-hero-baby"
             />
@@ -26,27 +26,27 @@ export default function HeroSection() {
             className="relative z-10 text-lg md:text-xl lg:text-2xl font-medium leading-relaxed text-center max-w-4xl mx-auto uppercase"
             style={{ color: '#FFEE00' }}
           >
-            para que você durma a noite toda e acorde se sentindo
-            revigorado, descansado e pronto para começar o dia.
+            so that you sleep through the night and wake up feeling
+            refreshed, rested and ready to start the day.
           </h2>
 
           <div className="relative z-10 space-y-6 max-w-3xl mx-auto pt-4">
             <div className="flex gap-4 items-start">
               <div className="w-1 flex-shrink-0 self-stretch min-h-[4rem]" style={{ backgroundColor: '#FFEE00' }} />
               <p className="text-xl md:text-2xl text-white/90 leading-relaxed">
-                Para quem tem dificuldade em dormir bem à noite.
-                <br />- Pode ser bastante frustrante.
+                For those who have difficulty sleeping well at night.
+                <br />- It can be quite frustrating.
               </p>
             </div>
 
             <p className="text-base md:text-lg text-white/70 leading-relaxed">
-              Você pode estar dormindo, deitado imóvel na cama por oito ou
-              nove horas todas as noites, e ainda assim acordar todas as
-              manhãs com a sensação de que não dormiu nada.
+              You may be sleeping, lying still in bed for eight or
+              nine hours every night, and still wake up every
+              morning feeling like you didn't sleep at all.
             </p>
 
             <p className="text-2xl md:text-3xl font-semibold text-white pt-12 text-center" data-testid="text-familiar">
-              Parece familiar?
+              Sound familiar?
             </p>
           </div>
         </div>
