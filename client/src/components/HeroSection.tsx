@@ -45,7 +45,7 @@ export default function HeroSection() {
               manhãs com a sensação de que não dormiu nada.
             </p>
 
-            <p className="text-2xl md:text-3xl font-semibold text-white pt-6" data-testid="text-familiar">
+            <p className="text-2xl md:text-3xl font-semibold text-white pt-12 text-center" data-testid="text-familiar">
               Parece familiar?
             </p>
           </div>
