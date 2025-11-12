@@ -14,12 +14,14 @@ export default function HeroSection() {
 
       <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
         <div className="space-y-8">
-          <div className="text-center">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight text-white inline-block">
-              Sleep "Trick" Fixes the Root Cause of Nonrestorative Sleep
-              <div className="h-1 bg-red-600 mt-2 mx-auto" style={{ width: '60%' }} />
-            </h1>
-          </div>
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-relaxed text-center text-white max-w-4xl mx-auto">
+            <span className="inline-block">
+              Sleep "Trick"
+              <div className="h-1 bg-red-600 mt-1" />
+            </span>
+            {" "}Fixes the Root Cause of{" "}
+            <span className="block">Nonrestorative Sleep</span>
+          </h1>
 
           <h2 
             className="text-lg md:text-xl lg:text-2xl font-medium leading-relaxed text-center max-w-4xl mx-auto"
