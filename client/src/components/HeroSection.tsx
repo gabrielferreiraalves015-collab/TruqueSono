@@ -3,7 +3,7 @@ import babyImage from "@assets/baby-bg-8f52a2c2157cb615c5e9b1d8806b6c91_17629628
 export default function HeroSection() {
   return (
     <section className="relative bg-black text-white overflow-hidden">
-      <div className="relative max-w-7xl mx-auto px-6 md:px-12 py-20 md:py-32">
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 md:px-12 pt-4 pb-12 sm:pt-8 sm:pb-16 md:py-32">
         <div className="space-y-8">
           <div className="absolute right-0 top-1/4 w-4/5 md:w-3/5 -translate-y-1/4 flex items-center justify-end">
             <img
